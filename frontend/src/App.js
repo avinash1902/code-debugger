@@ -10,7 +10,7 @@ function App() {
 
   const runCode = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/run", {
+      const res = await axios.post("https://code-debugger-1-gqqo.onrender.com", {
         code,
         language,
       });
