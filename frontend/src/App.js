@@ -25,20 +25,8 @@ function App() {
 
   return (
     <div style={styles.container}>
-      
-      {/* 🔥 HEADER */}
-      <div style={styles.header}>
-        <h1 style={styles.title}>⚡ CodeLab</h1>
+      <h1 style={styles.title}>🚀 Avinash Debugger Pro</h1>
         <span style={styles.tag}>Built by Avinash</span>
-      </div>
-
-      {/* 🧠 EDITOR */}
-      <textarea
-        style={styles.editor}
-        placeholder="Write your code here..."
-        value={code}
-        onChange={(e) => setCode(e.target.value)}
-      />
 
       {/* Top Bar */}
       <div style={styles.topBar}>
