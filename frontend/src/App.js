@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-<div className="container">
+<div className="container" style={{ background: "#0d1117", minHeight: "100vh" }}>
 
   <div className="header">
     <h1 className="title">⚡ CodeLab</h1>
