@@ -13,33 +13,34 @@ body {
 }
 
 .title {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 26px;
   color: #4c1d95;
 }
 
 .tag {
-  font-size: 13px;
   color: #6b7280;
 }
 
-/* Top bar */
+/* Top Bar */
+.topBar {
+  background: rgba(255,255,255,0.6);
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+/* Select */
 select {
   background: white;
-  color: #111827;
   border: 1px solid #d1d5db;
-  padding: 8px;
   border-radius: 6px;
 }
 
 /* Button */
 button {
   background: linear-gradient(45deg, #ec4899, #8b5cf6);
-  border: none;
-  padding: 10px 18px;
   color: white;
-  border-radius: 6px;
-  cursor: pointer;
+  border: none;
   transition: 0.3s;
 }
 
@@ -47,31 +48,27 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Layout */
-div[style*="display: flex"] {
-  gap: 20px;
+/* Main Layout */
+.main {
+  margin-top: 10px;
 }
 
-/* Editor box (VS Code feel) */
-div[style*="width: 50%"] {
+/* Editor Box (VS Code feel) */
+.editorBox {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* Output panel (light glass) */
-div[style*="outputBox"] {
-  background: rgba(255,255,255,0.6) !important;
+/* Output Box */
+.outputBox {
+  background: rgba(255,255,255,0.7) !important;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 15px;
-  backdrop-filter: blur(10px);
 }
 
-/* Output text */
+/* Text */
 pre {
   font-family: Consolas, monospace;
-  color: #111827;
 }
 
 /* Headings */

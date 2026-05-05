@@ -33,15 +33,15 @@ function App() {
   }}
 >
   <div className="header">
-    <h1 className="title">⚡ CodeLab</h1>
+    <h1 className="title">⚡ ᑕOᗪE ᒪᗩᗷ</h1>
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
   <img src={logo} alt="logo" width="40" />
 
 </div>
-    <span className="tag">Built by Avinash Singh </span>
+    <span className="tag">Built by 𝔸𝕧𝕚𝕟𝕒𝕤𝕙 𝕊𝕚𝕟𝕘𝕙 </span>
   </div>
       {/* Top Bar */}
-      <div style={styles.topBar}>
+      <div style={styles.topBar} className="topBar">
         <select
           style={styles.select}
           onChange={(e) => setLanguage(e.target.value)}
@@ -56,10 +56,10 @@ function App() {
       </div>
 
       {/* Main Section */}
-      <div style={styles.main}>
+      <div style={styles.main} className="main">
         
         {/* Monaco Editor */}
-        <div style={styles.editor}>
+        <div style={styles.editor} className="editorBox">
           <Editor
             height="400px"
             language={language === "python" ? "python" : "javascript"}
@@ -70,7 +70,7 @@ function App() {
         </div>
 
         {/* Output Panel */}
-        <div style={styles.outputBox}>
+        <div style={styles.outputBox} className="outputBox">
           <h3>Output:</h3>
           <pre style={{ color: "#00ffcc" }}>{output}</pre>
 
