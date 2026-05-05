@@ -32,7 +32,7 @@ function App() {
   <img src={logo} alt="logo" width="40" />
 
 </div>
-    <span className="tag">Built by Avinash</span>
+    <span className="tag">Built by Avinash Singh </span>
   </div>
       {/* Top Bar */}
       <div style={styles.topBar}>
@@ -80,13 +80,12 @@ export default App;
 
 const styles = {
   container: {
-    height: "100vh",
-    padding: "20px",
-    background: "linear-gradient(135deg, #1d2671, #c33764)",
-    color: "white",
-    fontFamily: "sans-serif",
-  },
-
+  height: "100vh",
+  padding: "20px",
+  background: "#0d1117",  
+  color: "#c9d1d9",        
+  fontFamily: "Segoe UI, sans-serif",
+},
   title: {
     textAlign: "center",
     marginBottom: "20px",
