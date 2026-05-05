@@ -71,13 +71,13 @@ function App() {
 
         <div style={styles.outputBox} className="output-box">
           <h3>Output:</h3>
-          <pre id="output">{output}</pre>
+                 <pre className="outputText" style={{ color: "#00ffcc" }}>
+  {output}
+</pre>
+
 
           <h3>Error:</h3>
           <pre id="error">{error}</pre>
-          <pre className="outputText" style={{ color: "#00ffcc" }}>
-  {output}
-</pre>
 
 <pre className="errorText" style={{ color: "red" }}>
   {error}
