@@ -62,15 +62,16 @@ button:hover {
 
 /* Output Box */
 .outputBox {
-  background: rgba(5, 0, 2, 0.7) !important;
-  border: 1px solid #e5e7eb;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ec4899;
+  backdrop-filter: blur(8px);
 }
-
 /* Text */
 pre {
+  color: #111827;
   font-family: Consolas, monospace;
+  font-size: 14px;
 }
-
 /* Headings */
 h3 {
   color: #7c3aed;
