@@ -25,10 +25,6 @@ function App() {
 
   return (
 <div className="container" style={{ background: "#0d1117", minHeight: "100vh" }}>
-  style={{
-  background: "linear-gradient(135deg, #0f172a, #1e293b)",
-  minHeight: "100vh"
-}}
 
   <div className="header">
     <h1 className="title">⚡ CodeLab</h1>
