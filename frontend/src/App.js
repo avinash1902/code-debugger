@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import axios from "axios";
 import Editor from "@monaco-editor/react";
 import logo from "./logo.png";

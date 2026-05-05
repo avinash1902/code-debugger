@@ -1,91 +1,62 @@
-/* 🌙 FULL VS CODE STYLE */
-
 body {
   margin: 0;
   padding: 0;
-  background: #1e1e1e;
-  color: #d4d4d4;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
 }
 
-/* Layout */
 .container {
-  display: flex;
-  height: 100vh;
-}
-
-/* Sidebar (left) */
-.sidebar {
-  width: 60px;
-  background: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-}
-
-.sidebar div {
-  margin: 15px 0;
-  cursor: pointer;
-}
-
-/* Main area */
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 
 /* Header */
 .header {
-  background: #2d2d2d;
-  padding: 10px 20px;
-  border-bottom: 1px solid #444;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title {
-  color: #fff;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .tag {
-  color: #4fc1ff;
-  font-size: 12px;
+  font-size: 14px;
+  color: #38bdf8;
 }
 
 /* Editor */
 .editor {
-  flex: 1;
-  background: #1e1e1e;
-  color: #9cdcfe;
-  border: none;
-  outline: none;
-  padding: 15px;
-  font-family: "Consolas", monospace;
+  width: 100%;
+  height: 200px;
+  background: #020617;
+  color: #38bdf8;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 10px;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 /* Button */
 .run-btn {
-  background: #0e639c;
-  color: white;
+  background: #3b82f6;
   border: none;
-  padding: 10px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
   cursor: pointer;
-}
-
-.run-btn:hover {
-  background: #1177bb;
+  margin-top: 10px;
 }
 
 /* Output */
 .output {
-  background: #1e1e1e;
-  border-top: 1px solid #333;
+  background: #020617;
   padding: 10px;
-  color: #dcdcaa;
-  min-height: 120px;
-  font-family: "Consolas", monospace;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  margin-top: 15px;
+  min-height: 100px;
 }
