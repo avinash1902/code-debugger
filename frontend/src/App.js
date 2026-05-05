@@ -74,11 +74,7 @@ function App() {
                  <pre className="outputText" style={{ color: "#00ffcc" }}>
   {output}
 </pre>
-
-
           <h3>Error:</h3>
-          <pre id="error">{error}</pre>
-
 <pre className="errorText" style={{ color: "red" }}>
   {error}
 </pre>
