@@ -10,7 +10,7 @@ router.post("/", async (req, res) => {
   let fileName = "";
   let command = "";
 
-  // 🔥 unique file name
+
   const uniqueId = Date.now();
 
   if (language === "python") {
@@ -28,12 +28,12 @@ router.post("/", async (req, res) => {
   }
 
   exec(command, async (error, stdout, stderr) => {
-    // 🧹 file delete
+    
     try {
       fs.unlinkSync(fileName);
     } catch (e) {}
 
-    // ❌ error aaya
+  
     if (error) {
       const aiResponse = await analyzeError(stderr, code);
 
@@ -43,7 +43,7 @@ router.post("/", async (req, res) => {
       });
     }
 
-    // ✅ success
+  
     return res.json({
       output: stdout,
     });

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Editor from "@monaco-editor/react";
+import logo from "./logo.png";
 
 function App() {
   const [code, setCode] = useState('print("Hello Bhai")');
@@ -24,7 +25,11 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>🚀 Code Debugger Pro</h1>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+  <img src={logo} alt="logo" width="40" />
+  <h1>🚀 Code Debugger Pro</h1>
+</div>
+      <p style={{ fontSize: "14px", color:"#ccc" }}> Built by Avinash Singh</p>
 
       {/* Top Bar */}
       <div style={styles.topBar}>
