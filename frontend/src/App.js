@@ -136,13 +136,13 @@ const styles = {
   boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
   output: {
   color: "green",
-  background: "#f6fff6",
+  background: "#005900",
   padding: "8px",
   borderRadius: "6px"
 },
 error: {
   color: "red",
-  background: "#fff5f5",
+  background: "#b91212",
   padding: "8px",
   borderRadius: "6px"
 }
