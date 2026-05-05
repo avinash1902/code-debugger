@@ -29,14 +29,14 @@ body {
   backdrop-filter: blur(10px);
 }
 
-/* Select */
+
 select {
   background: white;
   border: 1px solid #d1d5db;
   border-radius: 6px;
 }
 
-/* Button */
+
 button {
   background: linear-gradient(45deg, #ec4899, #8b5cf6);
   color: white;
@@ -48,19 +48,17 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Main Layout */
+
 .main {
   margin-top: 10px;
 }
 
-/* Editor Box (VS Code feel) */
 .editorBox {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* Output Box */
 .output-box {
   background: linear-gradient(145deg, #ffffff, #f3f3f3);
   border-radius: 12px;
@@ -72,22 +70,16 @@ button:hover {
     0 8px 20px rgba(0,0,0,0.1),
     inset 0 1px 2px rgba(255,255,255,0.6);
 }
-#output {
-  color: green;
-  font-weight: 500;
-}
-
-#error {
-  color: red;
-  font-weight: 500;
-}
-/* Text */
-pre {
-  color: #111827;
+.outputText {
   font-family: Consolas, monospace;
   font-size: 14px;
 }
-/* Headings */
+
+.errorText {
+  font-family: Consolas, monospace;
+  font-size: 14px;
+}
+
 h3 {
   color: #7c3aed;
 }

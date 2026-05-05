@@ -55,10 +55,10 @@ function App() {
         </button>
       </div>
 
-      {/* Main Section */}
+    
       <div style={styles.main} className="main">
         
-        {/* Monaco Editor */}
+        
         <div style={styles.editor} className="editorBox">
           <Editor
             height="400px"
@@ -69,13 +69,19 @@ function App() {
           />
         </div>
 
-        {/* Output Panel */}
         <div style={styles.outputBox} className="output-box">
           <h3>Output:</h3>
           <pre id="output">{output}</pre>
 
           <h3>Error:</h3>
           <pre id="error">{error}</pre>
+          <pre className="outputText" style={{ color: "#00ffcc" }}>
+  {output}
+</pre>
+
+<pre className="errorText" style={{ color: "red" }}>
+  {error}
+</pre>
         </div>
       </div>
     </div>
@@ -88,7 +94,7 @@ const styles = {
   container: {
   height: "100vh",
   padding: "20px",
-  color: "#c9d1d9",        // 🔥 CHANGE THIS
+  color: "#c9d1d9",      
   fontFamily: "Segoe UI, sans-serif",
 },
   title: {
