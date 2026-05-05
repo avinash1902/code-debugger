@@ -1,11 +1,10 @@
+/* body smooth */
 body {
   margin: 0;
-  background: #0d1117;
-  color: #c9d1d9;
   font-family: "Segoe UI", sans-serif;
 }
 
-/* header */
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,47 +13,67 @@ body {
 }
 
 .title {
-  color: #58a6ff;
+  font-size: 28px;
+  font-weight: bold;
+  color: #38bdf8;
 }
 
 .tag {
-  color: #8b949e;
+  font-size: 13px;
+  color: #94a3b8;
 }
 
-/* dropdown + button */
+/* Top bar */
 select {
-  background: #161b22;
-  color: #c9d1d9;
-  border: 1px solid #30363d;
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
   padding: 8px;
   border-radius: 6px;
 }
 
+/* Button 🔥 */
 button {
-  background: #238636;
+  background: linear-gradient(45deg, #3b82f6, #06b6d4);
   border: none;
   padding: 10px 18px;
   color: white;
   border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background: #2ea043;
+  transform: scale(1.05);
 }
 
-/* layout */
+/* Layout */
 div[style*="display: flex"] {
   gap: 20px;
 }
 
-/* editor box */
+/* Editor box */
 div[style*="width: 50%"] {
-  background: #0d1117;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* output */
+/* Output panel */
 div[style*="outputBox"] {
-  background: #010409 !important;
-  border: 1px solid #30363d;
-  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.8) !important;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+}
+
+/* Output text */
+pre {
+  font-family: Consolas, monospace;
+}
+
+/* Headings */
+h3 {
+  color: #38bdf8;
 }
