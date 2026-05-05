@@ -25,11 +25,20 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-  <img src={logo} alt="logo" width="40" />
-  <h1>🚀 Code Debugger Pro</h1>
-</div>
-      <p style={{ fontSize: "14px", color:"#ccc" }}> Built by Avinash Singh</p>
+      
+      {/* 🔥 HEADER */}
+      <div style={styles.header}>
+        <h1 style={styles.title}>⚡ CodeLab</h1>
+        <span style={styles.tag}>Built by Avinash</span>
+      </div>
+
+      {/* 🧠 EDITOR */}
+      <textarea
+        style={styles.editor}
+        placeholder="Write your code here..."
+        value={code}
+        onChange={(e) => setCode(e.target.value)}
+      />
 
       {/* Top Bar */}
       <div style={styles.topBar}>
