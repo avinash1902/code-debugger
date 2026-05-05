@@ -24,8 +24,14 @@ function App() {
   };
 
   return (
-<div className="container" style={{ background: "#0d1117", minHeight: "100vh" }}>
-
+<div
+  className="container"
+  style={{
+    background: "linear-gradient(135deg, #fbcfe8, #e0e7ff)",
+    minHeight: "100vh",
+    padding: "20px"
+  }}
+>
   <div className="header">
     <h1 className="title">⚡ CodeLab</h1>
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
