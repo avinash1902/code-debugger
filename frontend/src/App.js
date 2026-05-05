@@ -82,8 +82,7 @@ const styles = {
   container: {
   height: "100vh",
   padding: "20px",
-  background: "#0d1117",  
-  color: "#c9d1d9",        
+  color: "#c9d1d9",        // 🔥 CHANGE THIS
   fontFamily: "Segoe UI, sans-serif",
 },
   title: {

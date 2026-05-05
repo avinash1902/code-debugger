@@ -1,4 +1,19 @@
-/* Reset + full dark */
+body {
+  margin: 0;
+  background: #0d1117;
+  color: #c9d1d9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  background: #0d1117;
+}
+
+/* Output dark */
+div[style*="outputBox"] {
+  background: #010409 !important;
+  border: 1px solid #30363d;
+}
 html, body, #root {
   height: 100%;
   margin: 0;
