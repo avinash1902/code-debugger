@@ -28,6 +28,9 @@ function App() {
 
   <div className="header">
     <h1 className="title">⚡ CodeLab</h1>
+    <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+  <img src={logo} alt="logo" width="40" />
+</div>
     <span className="tag">Built by Avinash</span>
   </div>
       {/* Top Bar */}
