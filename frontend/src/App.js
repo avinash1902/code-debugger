@@ -70,12 +70,12 @@ function App() {
         </div>
 
         {/* Output Panel */}
-        <div style={styles.outputBox} className="outputBox">
+        <div style={styles.outputBox} className="output-box">
           <h3>Output:</h3>
-          <pre style={{ color: "#00ffcc" }}>{output}</pre>
+          <pre id="output">{output}</pre>
 
           <h3>Error:</h3>
-          <pre style={{ color: "red" }}>{error}</pre>
+          <pre id="error">{error}</pre>
         </div>
       </div>
     </div>
@@ -127,10 +127,25 @@ const styles = {
   },
 
   outputBox: {
-    width: "50%",
-    background: "rgba(255,255,255,0.1)",
-    backdropFilter: "blur(10px)",
-    borderRadius: "10px",
-    padding: "15px",
-  },
+  width: "50%",
+  background: "rgba(255,255,255,0.6)", // increase opacity
+  backdropFilter: "blur(10px)",
+  border: "1px solid rgba(255,255,255,0.4)",
+  borderRadius: "12px",
+  padding: "15px",
+  boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+  output: {
+  color: "green",
+  background: "#f6fff6",
+  padding: "8px",
+  borderRadius: "6px"
+},
+error: {
+  color: "red",
+  background: "#fff5f5",
+  padding: "8px",
+  borderRadius: "6px"
+}
+}
+
 };
