@@ -62,7 +62,7 @@ button:hover {
 
 /* Output Box */
 .outputBox {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(18, 1, 1, 0.9);
   border: 1px solid #ec4899;
   backdrop-filter: blur(8px);
 }
