@@ -24,10 +24,12 @@ function App() {
   };
 
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>🚀 Avinash Debugger Pro</h1>
-        <span style={styles.tag}>Built by Avinash</span>
+<div className="container">
 
+  <div className="header">
+    <h1 className="title">⚡ CodeLab</h1>
+    <span className="tag">Built by Avinash</span>
+  </div>
       {/* Top Bar */}
       <div style={styles.topBar}>
         <select
