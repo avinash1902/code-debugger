@@ -71,7 +71,7 @@ function App() {
 
         <div style={styles.outputBox} className="output-box">
           <h3>Output:</h3>
-                 <pre className="outputText" style={{ color: "#00ffcc" }}>
+                 <pre className="outputText" style={{ color: "#046415" }}>
   {output}
 </pre>
           <h3>Error:</h3>
