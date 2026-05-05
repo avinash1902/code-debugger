@@ -134,18 +134,6 @@ const styles = {
   borderRadius: "12px",
   padding: "15px",
   boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
-  output: {
-  color: "green",
-  background: "#005900",
-  padding: "8px",
-  borderRadius: "6px"
-},
-error: {
-  color: "red",
-  background: "#b91212",
-  padding: "8px",
-  borderRadius: "6px"
-}
 }
 
 };
